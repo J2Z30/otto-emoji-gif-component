@@ -1,6 +1,8 @@
 ## IDF Component Manager Manifest File
 dependencies:
-  lvgl/lvgl: ">=9.0"
+  lvgl/lvgl:
+    git: https://github.com/J2Z30/lvgl.git
+    version: feat/feat_sdk_rel_v9.3_lvgl
 
   ## Required IDF version
   idf:
